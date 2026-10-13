@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica Demo • Jardins | Estética de Alto Padrão e Bem-Estar</title>
+  
+  <meta name="description" content="Clínica Demo na região dos Jardins. Estética de alto padrão, tratamentos faciais e corporais personalizados, depilação a laser e harmonizações. Mais do que estética, cuidamos de você.">
+  <meta name="keywords" content="clínica de estética jardins, limpeza de pele jardins, harmonização facial são paulo, depilação a laser jardins, tratamentos faciais alto padrão, rejuvenescimento facial">
+  <meta name="author" content="Clínica Demo">
+  
+  <!-- Open Graph / Meta Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Clínica Demo • Jardins | Estética de Alto Padrão">
+  <meta property="og:description" content="Ambiente acolhedor, atendimento humanizado e protocolos personalizados no coração dos Jardins. Agende sua avaliação.">
+  <meta property="og:image" content="assets/images/hero_clinic.jpg">
+
+  <!-- Favicon SVG (Lilac Orchid Blossom) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%239370DB'/><path d='M50 25 C45 38 35 45 22 50 C35 55 45 62 50 75 C55 62 65 55 78 50 C65 45 55 38 50 25 Z' fill='%23FFFFFF'/></svg>">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- =============================================================
+       SITE HEADER / NAVIGATION
+       ============================================================= -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <a href="#inicio" class="logo-brand" aria-label="Clínica Demo Jardins">
+        <div class="logo-symbol">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2a10 10 0 0 1 10 10c0 5.523-4.477 10-10 10S2 17.523 2 12a10 10 0 0 1 10-10z"/>
+            <path d="M12 6c-2.5 3-4.5 5.5-4.5 8 0 2.485 2.015 4 4.5 4s4.5-1.515 4.5-4c0-2.5-2-5-4.5-8z"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">CLÍNICA DEMO</span>
+          <span class="logo-location">JARDINS • SÃO PAULO</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="main-nav" aria-label="Navegação Principal">
+        <a href="#inicio" class="nav-link">Início</a>
+        <a href="#essencia" class="nav-link">A Clínica</a>
+        <a href="#servicos" class="nav-link">Serviços</a>
+        <a href="#experiencia" class="nav-link">Experiência</a>
+        <a href="#protocolo-quiz" class="nav-link">Seu Protocolo</a>
+        <a href="#localizacao" class="nav-link">Localização</a>
+      </nav>
+
+      <!-- CTA Action -->
+      <div class="header-actions">
+        <a href="https://wa.me/5511948594859?text=Ol%C3%A1%2C+gostaria+de+agendar+uma+avalia%C3%A7%C3%A3o+personalizada+na+Cl%C3%ADnica+Demo+Jardins." target="_blank" class="btn btn-primary" id="headerCtaBtn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.301-.15-1.782-.879-2.057-.98-.276-.1-.477-.15-.678.15-.2.301-.779.98-.955 1.18-.175.201-.351.226-.652.075s-1.272-.469-2.424-1.496c-.896-.799-1.501-1.787-1.677-2.088-.176-.301-.019-.464.132-.614.136-.135.301-.351.452-.527.15-.175.201-.301.301-.502.1-.201.05-.376-.025-.526-.075-.15-.678-1.634-.929-2.239-.244-.589-.493-.509-.678-.519l-.578-.01c-.2 0-.527.075-.803.376s-1.054 1.03-1.054 2.511 1.079 2.912 1.23 3.113c.15.2 2.124 3.243 5.145 4.548.719.311 1.28.497 1.718.636.722.23 1.378.197 1.897.12.578-.087 1.782-.728 2.033-1.431.251-.703.251-1.305.176-1.431-.076-.125-.276-.2-.577-.35zM12.04 2C6.51 2 2.02 6.49 2.02 12.02c0 1.96.57 3.86 1.65 5.48L2 22l4.67-1.62c1.57.99 3.39 1.52 5.37 1.52 5.53 0 10.02-4.49 10.02-10.02C22.06 6.49 17.57 2 12.04 2z"/>
+          </svg>
+          <span>Agendar Avaliação</span>
+        </a>
+
+        <!-- Mobile Hamburger -->
+        <button class="mobile-toggle" id="mobileMenuToggle" aria-label="Abrir menu móvel">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu Drawer (Inside Header) -->
+    <div class="mobile-menu-drawer" id="mobileDrawer" aria-hidden="true">
+      <a href="#inicio">Início</a>
+      <a href="#essencia">A Clínica</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#protocolo-quiz">Seu Protocolo</a>
+      <a href="#localizacao">Localização</a>
+      <a href="https://wa.me/5511948594859?text=Ol%C3%A1%2C+gostaria+de+agendar+uma+avalia%C3%A7%C3%A3o+na+Cl%C3%ADnica+Demo." target="_blank" class="btn btn-primary" style="margin-top: 10px; width: 100%;">
+        Agendar no WhatsApp
+      </a>
+    </div>
+  </header>
+
+  <!-- =============================================================
+       HERO SECTION
+       ============================================================= -->
+  <section class="hero-section" id="inicio">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge-group">
+          <span class="badge-pill">
+            <span class="dot"></span>
+            Exclusividade & Bem-Estar nos Jardins
+          </span>
+        </div>
+
+        <h1 class="hero-title">
+          A harmonia entre <em>ciência estética</em> e cuidado sob medida.
+        </h1>
+
+        <p class="hero-subtitle">
+          Dedicada ao cuidado com a pele, ao bem-estar e à sua autoestima. Um refúgio sofisticado e acolhedor na região dos Jardins, onde cada detalhe é desenhado para realçar sua essência única.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="https://wa.me/5511948594859?text=Ol%C3%A1%2C+gostaria+de+agendar+uma+avalia%C3%A7%C3%A3o+personalizada+na+Cl%C3%ADnica+Demo+Jardins." target="_blank" class="btn btn-primary">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M17.472 14.382c-.301-.15-1.782-.879-2.057-.98-.276-.1-.477-.15-.678.15-.2.301-.779.98-.955 1.18-.175.201-.351.226-.652.075s-1.272-.469-2.424-1.496c-.896-.799-1.501-1.787-1.677-2.088-.176-.301-.019-.464.132-.614.136-.135.301-.351.452-.527.15-.175.201-.301.301-.502.1-.201.05-.376-.025-.526-.075-.15-.678-1.634-.929-2.239-.244-.589-.493-.509-.678-.519l-.578-.01c-.2 0-.527.075-.803.376s-1.054 1.03-1.054 2.511 1.079 2.912 1.23 3.113c.15.2 2.124 3.243 5.145 4.548.719.311 1.28.497 1.718.636.722.23 1.378.197 1.897.12.578-.087 1.782-.728 2.033-1.431.251-.703.251-1.305.176-1.431-.076-.125-.276-.2-.577-.35zM12.04 2C6.51 2 2.02 6.49 2.02 12.02c0 1.96.57 3.86 1.65 5.48L2 22l4.67-1.62c1.57.99 3.39 1.52 5.37 1.52 5.53 0 10.02-4.49 10.02-10.02C22.06 6.49 17.57 2 12.04 2z"/>
+            </svg>
+            <span>Agendar pelo WhatsApp</span>
+          </a>
+
+          <a href="#servicos" class="btn btn-secondary">
+            <span>Conhecer Nossos Serviços</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </div>
+
+        <div class="hero-trust-metrics">
+          <div class="metric-item">
+            <span class="metric-number">100%</span>
+            <span class="metric-label">Abordagem Individualizada</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-number">Jardins</span>
+            <span class="metric-label">Localização Privilegiada</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-number">5.0 ★</span>
+            <span class="metric-label">Excelência & Segurança</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual Frame -->
+      <div class="hero-visual-wrapper">
+        <div class="hero-image-card">
+          <img src="assets/images/hero_clinic.jpg" alt="Recepção sofisticada da Clínica Demo nos Jardins" width="800" height="680" loading="eager">
+        </div>
+
+        <!-- Floating Glass Card (Location) -->
+        <div class="floating-glass-card card-location">
+          <div class="icon-circle">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+          </div>
+          <div class="info">
+            <h4>Boutique Jardins</h4>
+            <p>Atendimento acolhedor e humanizado</p>
+          </div>
+        </div>
+
+        <!-- Floating Glass Card (Rating) -->
+        <div class="floating-glass-card card-satisfaction">
+          <div class="stars-row">★★★★★</div>
+          <span class="satisfaction-text">Padrão Ouro em Estética</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================================
+       MANIFESTO / BRAND ESSENCE
+       ============================================================= -->
+  <section class="manifesto-section" id="essencia">
+    <div class="container">
+      <div class="manifesto-quote-wrapper">
+        <div class="quote-ornament">“</div>
+        <h2 class="manifesto-big-statement">
+          Mais do que estética, <em>cuidamos de você</em>.
+        </h2>
+        <p class="manifesto-subtext">
+          Somos uma clínica de estética dedicada ao cuidado com a pele, ao bem-estar e à autoestima. Nosso propósito é oferecer tratamentos personalizados, com atenção a cada detalhe e foco nas necessidades de cada cliente.
+        </p>
+      </div>
+
+      <div class="manifesto-pillars-grid">
+        <div class="pillar-card">
+          <div class="pillar-icon-box">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+            </svg>
+          </div>
+          <h3 class="pillar-title">Atendimento Humanizado</h3>
+          <p class="pillar-text">
+            Contamos com um ambiente acolhedor, atendimento humanizado e profissionais qualificados para proporcionar uma experiência segura, confortável e verdadeiramente especial.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon-box">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </div>
+          <h3 class="pillar-title">Abordagem Individualizada</h3>
+          <p class="pillar-text">
+            Acreditamos que cada pessoa tem suas próprias necessidades e, por isso, valorizamos uma conduta personalizada, respeitando a anatomia, o ritmo e os objetivos de cada cliente.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon-box">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+            </svg>
+          </div>
+          <h3 class="pillar-title">Rigor & Alta Tecnologia</h3>
+          <p class="pillar-text">
+            Equipamentos de última geração aprovados pelos órgãos reguladores mais rigorosos, integrados a formulações cosmecêuticas de altíssima pureza e procedência.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================================
+       SERVICES SECTION (The 7 Core Treatments)
+       ============================================================= -->
+  <section class="services-section" id="servicos">
+    <div class="container">
+      <div class="services-header-wrap">
+        <span class="section-tagline">Menu de Procedimentos</span>
+        <h2 class="section-title">Tratamentos desenhados com <span>perfeição</span></h2>
+        <p class="section-description">
+          Conheça nosso catálogo de procedimentos especializados. Protocolos pensados com rigor clínico e toque sensorial para transformar a saúde e a beleza da sua pele.
+        </p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="services-filter-tabs">
+        <button class="filter-tab-btn active" data-filter="all">Todos os Serviços</button>
+        <button class="filter-tab-btn" data-filter="facial">Tratamentos Faciais</button>
+        <button class="filter-tab-btn" data-filter="laser">Laser & Tecnologia</button>
+        <button class="filter-tab-btn" data-filter="corporal">Corporais</button>
+        <button class="filter-tab-btn" data-filter="harmonizacao">Harmonizações</button>
+      </div>
+
+      <!-- Services Grid -->
+      <div class="services-grid">
+
+        <!-- 1. Limpeza de Pele -->
+        <article class="service-card" data-category="facial">
+          <div class="service-thumb">
+            <img src="assets/images/facial_treatment.jpg" alt="Limpeza de Pele Profunda na Clínica Demo Jardins" loading="lazy">
+            <span class="service-tag">Essencial • Cuidados</span>
+          </div>
+          <div class="service-body">
+            <h3 class="service-title">Limpeza de Pele</h3>
+            <p class="service-desc">
+              Higienização profunda personalizada com emoliência suave, vapor de ozônio, extração milimétrica indolor e máscara calmante com princípios ativos restauradores.
+            </p>
+            <div class="service-perks">
+              <div class="service-perk-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Desobstrução e renovação dos poros</span>
+              </div>
+              <div class="service-perk-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Equilíbrio da oleosidade sem ressecar</span>
+              </div>
+            </div>
+            <div class="service-footer">
+              <span style="font-size: 0.8rem; color: var(--text-muted); font-weight: 500;">Duração: 80 min</span>
+              <button class="btn-service-action" data-open-modal data-service="Limpeza de Pele Profunda">
+                Agendar
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2. Tratamentos Faciais -->
+        <article class="service-card" data-category="facial">
+          <div class="service-thumb">
+            <img src="assets/images/skincare_wellness.jpg" alt="Tratamentos Faciais e Skincare de Alta Performance" loading="lazy">
+            <span class="service-tag">Nutrição & Viço</span>
+          </div>
+          <div class="service-body">
+            <h3 class="service-title">Tratamentos Faciais</h3>
+            <p class="service-desc">
+              Protocolos sob medida para hidratação intensiva, reforço da barreira lipídica, clareamento suave e revitalização tecidual com cosmecêuticos biocompatíveis.
+            </p>
+            <div class="service-perks">
+              <div class="service-perk-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Nutrição celular e luminosidade natural</span>
+              </div>
+              <div class="service-perk-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Efeito seda imediato e duradouro</span>
+              </div>
+            </div>
+            <div class="service-footer">
+              <span style="font-size: 0.8rem; color: var(--text-muted); font-weight: 500;">Duração: 60 min</span>
+              <button class="btn-service-action" data-open-modal data-service="Tratamentos Faciais Personalizados">
+                Agendar
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 3. Depilação a Laser -->
+        <article class="service-card" data-category="laser">
+          <div class="service-thumb">
+            <img src="assets/images/laser_technology.jpg" alt="Depilação a Laser Tecnológica na Clínica Demo" loading="lazy">
+            <span class="service-tag">Tecnologia Avançada</span>
+          </div>
+          <div class="service-body">
+            <h3 class="service-title">Depilação a Laser</h3>
+            <p class="service-desc">
+              Sistemas de laser de última geração com ponteira resfriada inteligente. Tratamento seguro, confortável e altamente eficaz para todos os fototipos.
+            </p>
+            <div class="service-perks">
+              <div class="service-perk-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Máximo conforto térmico e rapidez</span>
+              </div>
+              <div class="service-perk-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Eliminação duradoura da foliculite</span>
+              </div>
+            </div>
+            <div class="service-footer">
+              <span style="font-size: 0.8rem; color: var(--text-muted); font-weight: 500;">Sessões Rápidas</span>
+              <button class="btn-service-action" data-open-modal data-service="Depilação a Laser">
+                Agendar
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 4. Tratamentos Corporais -->
+        <article class="service-card" data-category="corporal">
+          <div class="service-thumb">
+            <img src="assets/images/skincare_wellness.jpg" alt="Tratamentos Corporais Exclusivos Jardins" loading="lazy">
+            <span class="service-tag">Corpo & Bem-Estar</span>
+          </div>
+          <div class="service-body">
+            <h3 class="service-title">Tratamentos Corporais</h3>
+            <p class="service-desc">
+              Protocolos para contorno corporal, redução de medidas, combate à retenção de líquidos e celulite. União de tecnologia e manobras manuais especializadas.
+            </p>
+            <div class="service-perks">
+              <div class="service-perk-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Drenagem linfática estética especializada</span>
+              </div>
+              <div class="service-perk-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Estímulo do tônus e textura corporal</span>
+              </div>
+            </div>
+            <div class="service-footer">
+              <span style="font-size: 0.8rem; color: var(--text-muted); font-weight: 500;">Duração: 60-90 min</span>
+              <button class="btn-service-action" data-open-modal data-service="Tratamentos Corporais">
+                Agendar
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 5. Rejuvenescimento Facial -->
+        <article class="service-card featured-card" data-category="facial rejuvenescimento">
+          <div class="service-thumb">
+            <img src="assets/images/facial_treatment.jpg" alt="Rejuvenescimento Facial de Alta Performance" loading="lazy">
+            <span class="service-tag">Destaque • Antienvelhecimento</span>
+          </div>
+          <div class="service-body">
+            <h3 class="service-title">Rejuvenescimento Facial</h3>
+            <p class="service-desc">
+              Tecnologias focadas em remodelar o colágeno natural da derme, suavizando linhas finas e devolvendo a sustentação facial com absoluta naturalidade.
+            </p>
+            <div class="service-perks">
+              <div class="service-perk-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Estímulo potente de colágeno e elastina</span>
+              </div>
+              <div class="service-perk-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Recuperação da firmeza e elasticidade</span>
+              </div>
+            </div>
+            <div class="service-footer">
+              <span style="font-size: 0.8rem; color: var(--text-muted); font-weight: 500;">Protocolo Exclusivo</span>
+              <button class="btn-service-action" data-open-modal data-service="Rejuvenescimento Facial">
+                Agendar
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 6. Procedimentos Especializados -->
+        <article class="service-card" data-category="facial laser">
+          <div class="service-thumb">
+            <img src="assets/images/laser_technology.jpg" alt="Procedimentos Especializados Clínica Demo" loading="lazy">
+            <span class="service-tag">Precisão Clínica</span>
+          </div>
+          <div class="service-body">
+            <h3 class="service-title">Procedimentos Especializados</h3>
+            <p class="service-desc">
+              Tratamentos avançados para melasma, manchas solares, cicatrizes de acne e poros dilatados. Terapias combinadas com acompanhamento dermatológico atento.
+            </p>
+            <div class="service-perks">
+              <div class="service-perk-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Uniformização do tom e relevo cutâneo</span>
+              </div>
+              <div class="service-perk-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Recuperação acelerada sem downtime invasivo</span>
+              </div>
+            </div>
+            <div class="service-footer">
+              <span style="font-size: 0.8rem; color: var(--text-muted); font-weight: 500;">Avaliação Detalhada</span>
+              <button class="btn-service-action" data-open-modal data-service="Procedimentos Especializados">
+                Agendar
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 7. Harmonizações -->
+        <article class="service-card featured-card" data-category="harmonizacao">
+          <div class="service-thumb">
+            <img src="assets/images/hero_clinic.jpg" alt="Harmonizações Faciais Elegantes e Sutis" loading="lazy">
+            <span class="service-tag">Harmonia & Sofisticação</span>
+          </div>
+          <div class="service-body">
+            <h3 class="service-title">Harmonizações</h3>
+            <p class="service-desc">
+              Visagismo e equilíbrio facial focado em sutileza. Valorização de pontos de luz e proporções naturais, sem exageros ou transformações artificiais.
+            </p>
+            <div class="service-perks">
+              <div class="service-perk-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Preservação total da sua expressividade</span>
+              </div>
+              <div class="service-perk-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Produtos premium com certificação internacional</span>
+              </div>
+            </div>
+            <div class="service-footer">
+              <span style="font-size: 0.8rem; color: var(--text-muted); font-weight: 500;">Consulta Visagista</span>
+              <button class="btn-service-action" data-open-modal data-service="Harmonizações Sutis">
+                Agendar
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================================
+       INTERACTIVE PROTOCOL QUIZ
+       ============================================================= -->
+  <section class="quiz-section" id="protocolo-quiz">
+    <div class="container">
+      <div class="text-center" style="margin-bottom: 40px;">
+        <span class="section-tagline">Consultoria Interativa</span>
+        <h2 class="section-title">Descubra seu <span>Protocolo Ideal</span></h2>
+        <p class="section-description">
+          Responda a 3 perguntas rápidas para receber uma recomendação sob medida das nossas especialistas nos Jardins.
+        </p>
+      </div>
+
+      <div class="quiz-container">
+        <!-- Progress Steps -->
+        <div class="quiz-progress-bar">
+          <div class="quiz-step-dot active">1</div>
+          <div class="quiz-step-dot">2</div>
+          <div class="quiz-step-dot">3</div>
+        </div>
+
+        <div id="quizFormArea">
+          <!-- Step 1 -->
+          <div class="quiz-step active" data-step="1">
+            <h3 style="font-family: var(--font-serif); font-size: 1.6rem; color: var(--text-headline); margin-bottom: 8px;">
+              Qual é o seu objetivo prioritário hoje?
+            </h3>
+            <p style="font-size: 0.92rem; color: var(--text-muted);">Selecione a necessidade que mais importa para o seu bem-estar agora:</p>
+
+            <div class="quiz-options-grid">
+              <div class="quiz-option-card selected" data-value="Rejuvenescimento e Firmeza">
+                <div class="quiz-option-icon">✨</div>
+                <div>
+                  <div class="quiz-option-title">Firmeza & Rejuvenescimento</div>
+                  <div class="quiz-option-desc">Estimular colágeno e amenizar linhas</div>
+                </div>
+              </div>
+
+              <div class="quiz-option-card" data-value="Limpeza e Viço da Pele">
+                <div class="quiz-option-icon">💧</div>
+                <div>
+                  <div class="quiz-option-title">Limpeza Profunda & Glow</div>
+                  <div class="quiz-option-desc">Desintoxicação, hidratação e luminosidade</div>
+                </div>
+              </div>
+
+              <div class="quiz-option-card" data-value="Harmonização e Contornos">
+                <div class="quiz-option-icon">💎</div>
+                <div>
+                  <div class="quiz-option-title">Harmonização Sutil</div>
+                  <div class="quiz-option-desc">Realçar ângulos com naturalidade e elegância</div>
+                </div>
+              </div>
+
+              <div class="quiz-option-card" data-value="Depilação a Laser & Silhueta Corporal">
+                <div class="quiz-option-icon">🌿</div>
+                <div>
+                  <div class="quiz-option-title">Laser & Contorno Corporal</div>
+                  <div class="quiz-option-desc">Pele lisa sem pelos e drenagem estética</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="quiz-step" data-step="2">
+            <h3 style="font-family: var(--font-serif); font-size: 1.6rem; color: var(--text-headline); margin-bottom: 8px;">
+              Qual região você deseja focar?
+            </h3>
+            <p style="font-size: 0.92rem; color: var(--text-muted);">Nossos tratamentos são customizados por anatomia e necessidade:</p>
+
+            <div class="quiz-options-grid">
+              <div class="quiz-option-card selected" data-value="Face e Pescoço">
+                <div class="quiz-option-icon">🌸</div>
+                <div>
+                  <div class="quiz-option-title">Rosto e Pescoço</div>
+                  <div class="quiz-option-desc">Foco na saúde da derme facial e colo</div>
+                </div>
+              </div>
+
+              <div class="quiz-option-card" data-value="Área dos Olhos e Linhas de Expressão">
+                <div class="quiz-option-icon">👁️</div>
+                <div>
+                  <div class="quiz-option-title">Olhar e Expressão</div>
+                  <div class="quiz-option-desc">Suavizar olheiras, bolsas e marcas sutis</div>
+                </div>
+              </div>
+
+              <div class="quiz-option-card" data-value="Corpo Completo (Silhueta)">
+                <div class="quiz-option-icon">🧘‍♀️</div>
+                <div>
+                  <div class="quiz-option-title">Corpo & Silhueta</div>
+                  <div class="quiz-option-desc">Pernas, abdômen, flancos ou glúteos</div>
+                </div>
+              </div>
+
+              <div class="quiz-option-card" data-value="Áreas Específicas para Laser">
+                <div class="quiz-option-icon">⚡</div>
+                <div>
+                  <div class="quiz-option-title">Depilação a Laser (Zonas)</div>
+                  <div class="quiz-option-desc">Axilas, pernas, virilha ou face</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="quiz-step" data-step="3">
+            <h3 style="font-family: var(--font-serif); font-size: 1.6rem; color: var(--text-headline); margin-bottom: 8px;">
+              Qual é a sua relação atual com a estética?
+            </h3>
+            <p style="font-size: 0.92rem; color: var(--text-muted);">Para alinharmos o melhor nível de acompanhamento:</p>
+
+            <div class="quiz-options-grid">
+              <div class="quiz-option-card selected" data-value="Primeira vez com procedimentos">
+                <div class="quiz-option-icon">🌱</div>
+                <div>
+                  <div class="quiz-option-title">Primeira Experiência</div>
+                  <div class="quiz-option-desc">Busco orientação detalhada, sem dor e segura</div>
+                </div>
+              </div>
+
+              <div class="quiz-option-card" data-value="Já realizo procedimentos e busco excelência nos Jardins">
+                <div class="quiz-option-icon">👑</div>
+                <div>
+                  <div class="quiz-option-title">Cliente Habitual</div>
+                  <div class="quiz-option-desc">Busco nível superior de clínica e sofisticação</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quiz Nav Controls -->
+          <div class="quiz-footer">
+            <button type="button" class="btn btn-secondary" id="quizPrevBtn" style="visibility: hidden;">
+              ← Voltar
+            </button>
+            <button type="button" class="btn btn-primary" id="quizNextBtn">
+              Próximo Passo
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Result Box (Rendered dynamically) -->
+        <div id="quizResultBox" style="display: none;"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================================
+       EXPERIÊNCIA / O SANTUÁRIO JARDINS
+       ============================================================= -->
+  <section class="experience-section" id="experiencia">
+    <div class="container experience-grid">
+      <div class="experience-gallery-mosaic">
+        <div class="mosaic-img tall">
+          <img src="assets/images/hero_clinic.jpg" alt="Ambiente sereno nos Jardins" loading="lazy">
+        </div>
+        <div class="mosaic-img normal">
+          <img src="assets/images/facial_treatment.jpg" alt="Massagem e tratamento facial" loading="lazy">
+        </div>
+        <div class="mosaic-img normal">
+          <img src="assets/images/laser_technology.jpg" alt="Sala de tecnologia laser de alta precisão" loading="lazy">
+        </div>
+      </div>
+
+      <div class="experience-content">
+        <span class="section-tagline">Jornada do Paciente</span>
+        <h2 class="section-title">Uma experiência <span>sensorial & acolhedora</span></h2>
+        <p class="section-description text-left">
+          Na Clínica Demo, cada visita é desenhada como uma pausa revigorante na sua rotina. Do café especial aromatizado à cabine tratada acusticamente, cuidamos de você com respeito absoluto ao seu tempo e conforto.
+        </p>
+
+        <div class="steps-list">
+          <div class="step-card-item">
+            <div class="step-number-badge">01</div>
+            <div class="content">
+              <h4>Anamnese & Escuta Atenta</h4>
+              <p>Mapeamento detalhado dos seus objetivos, rotina e histórico dérmico antes de qualquer conduta terapêutica.</p>
+            </div>
+          </div>
+
+          <div class="step-card-item">
+            <div class="step-number-badge">02</div>
+            <div class="content">
+              <h4>Protocolo Sob Medida</h4>
+              <p>Elaboração de um plano transparente e sem procedimentos excessivos. Apenas o que valoriza sua beleza autêntica.</p>
+            </div>
+          </div>
+
+          <div class="step-card-item">
+            <div class="step-number-badge">03</div>
+            <div class="content">
+              <h4>Procedimento em Ambiente Sereno</h4>
+              <p>Tecnologias indolores, produtos dermatológicos finos e conforto máximo em cada etapa.</p>
+            </div>
+          </div>
+
+          <div class="step-card-item">
+            <div class="step-number-badge">04</div>
+            <div class="content">
+              <h4>Acompanhamento Pós-Sessão</h4>
+              <p>Nosso concierge e equipe permanecem disponíveis para acompanhar a evolução e garantir resultados impecáveis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================================
+       TESTIMONIALS (DEPOIMENTOS)
+       ============================================================= -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-tagline">Depoimentos Reais</span>
+        <h2 class="section-title">A confiança de quem <span>vive a experiência</span></h2>
+        <p class="section-description">
+          A satisfação das nossas clientes na região dos Jardins reflete nosso compromisso diário com a excelência e a naturalidade.
+        </p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div>
+            <div class="stars-row" style="margin-bottom: 14px;">★★★★★</div>
+            <p class="testimonial-quote">
+              “O atendimento na Clínica Demo é de uma delicadeza rara nos Jardins. Fiz a limpeza de pele e o rejuvenescimento facial; o viço da minha pele nunca esteve tão bonito e natural!”
+            </p>
+          </div>
+          <div class="testimonial-client">
+            <div class="client-avatar">MC</div>
+            <div class="client-info">
+              <h5>Mariana Carvalheiro</h5>
+              <span>Jardins, São Paulo</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div>
+            <div class="stars-row" style="margin-bottom: 14px;">★★★★★</div>
+            <p class="testimonial-quote">
+              “Ambiente impecável, super calmo e acolhedor. A depilação a laser deles não dói nada e o tratamento corporal me fez desinchar logo na primeira sessão. Indico de olhos fechados!”
+            </p>
+          </div>
+          <div class="testimonial-client">
+            <div class="client-avatar">BL</div>
+            <div class="client-info">
+              <h5>Beatriz Leitão</h5>
+              <span>Cerqueira César, Jardins</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div>
+            <div class="stars-row" style="margin-bottom: 14px;">★★★★★</div>
+            <p class="testimonial-quote">
+              “Fiz a harmonização com muito receio de ficar artificial. A equipe respeitou cada detalhe do meu rosto. Ficou sutil, elegante e sofisticado. A frase deles resume tudo: cuidam de nós com amor.”
+            </p>
+          </div>
+          <div class="testimonial-client">
+            <div class="client-avatar">FS</div>
+            <div class="client-info">
+              <h5>Fernanda Silveira</h5>
+              <span>Jardim Paulista</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================================
+       LOCALIZAÇÃO & CONTATO JARDINS
+       ============================================================= -->
+  <section class="location-section" id="localizacao">
+    <div class="container location-grid">
+      <div class="location-details-card">
+        <span class="badge-pill" style="margin-bottom: 18px;">
+          <span class="dot"></span>
+          Endereço Privilegiado
+        </span>
+        <h2 style="font-family: var(--font-serif); font-size: 2.3rem; color: var(--text-headline); margin-bottom: 14px;">
+          Visite nosso espaço nos Jardins
+        </h2>
+        <p style="font-size: 0.98rem; color: var(--text-body); line-height: 1.7;">
+          Localizada em um dos pontos mais nobres e arborizados de São Paulo, a Clínica Demo foi concebida para oferecer privacidade, segurança e total conveniência aos seus dias.
+        </p>
+
+        <div class="location-info-list">
+          <div class="location-info-item">
+            <div class="location-info-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <div>
+              <h5>Endereço</h5>
+              <p>Região dos Jardins • São Paulo - SP</p>
+            </div>
+          </div>
+
+          <div class="location-info-item">
+            <div class="location-info-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+              </svg>
+            </div>
+            <div>
+              <h5>Estacionamento & Valet</h5>
+              <p>Serviço de valet cortesia no local para o seu conforto.</p>
+            </div>
+          </div>
+
+          <div class="location-info-item">
+            <div class="location-info-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+            <div>
+              <h5>Horários de Atendimento</h5>
+              <p>Segunda a Sexta: 08h às 20h | Sábados: 09h às 16h</p>
+            </div>
+          </div>
+
+          <div class="location-info-item">
+            <div class="location-info-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.472 14.382c-.301-.15-1.782-.879-2.057-.98-.276-.1-.477-.15-.678.15-.2.301-.779.98-.955 1.18-.175.201-.351.226-.652.075s-1.272-.469-2.424-1.496c-.896-.799-1.501-1.787-1.677-2.088-.176-.301-.019-.464.132-.614.136-.135.301-.351.452-.527.15-.175.201-.301.301-.502.1-.201.05-.376-.025-.526-.075-.15-.678-1.634-.929-2.239-.244-.589-.493-.509-.678-.519l-.578-.01c-.2 0-.527.075-.803.376s-1.054 1.03-1.054 2.511 1.079 2.912 1.23 3.113c.15.2 2.124 3.243 5.145 4.548.719.311 1.28.497 1.718.636.722.23 1.378.197 1.897.12.578-.087 1.782-.728 2.033-1.431.251-.703.251-1.305.176-1.431-.076-.125-.276-.2-.577-.35zM12.04 2C6.51 2 2.02 6.49 2.02 12.02c0 1.96.57 3.86 1.65 5.48L2 22l4.67-1.62c1.57.99 3.39 1.52 5.37 1.52 5.53 0 10.02-4.49 10.02-10.02C22.06 6.49 17.57 2 12.04 2z"/>
+              </svg>
+            </div>
+            <div>
+              <h5>WhatsApp Concierge</h5>
+              <p>(11) 94859-4859 • Atendimento Rápido e Humanizado</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+          <a href="https://wa.me/5511948594859?text=Ol%C3%A1%2C+gostaria+de+agendar+um+hor%C3%A1rio+na+Cl%C3%ADnica+Demo+Jardins." target="_blank" class="btn btn-primary">
+            Falar com Concierge
+          </a>
+          <button type="button" class="btn btn-secondary" data-open-modal data-service="Avaliação Geral">
+            Solicitar Contato
+          </button>
+        </div>
+      </div>
+
+      <!-- Visual Map Showcase -->
+      <div class="location-map-card">
+        <div class="map-aesthetic-overlay">
+          <div class="map-pin-custom">
+            <div class="pin-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <div>
+              <span>CLÍNICA DEMO</span>
+              <div style="font-size: 0.72rem; color: var(--lilac-700); font-weight: 600;">Jardins • São Paulo</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================================
+       FAQ (PERGUNTAS FREQUENTES)
+       ============================================================= -->
+  <section class="faq-section">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-tagline">Esclarecendo Dúvidas</span>
+        <h2 class="section-title">Perguntas <span>Frequentes</span></h2>
+        <p class="section-description">
+          Transparência e segurança desde o primeiro contato. Confira as respostas para as principais dúvidas de nossas clientes.
+        </p>
+      </div>
+
+      <div class="faq-wrapper">
+        <div class="faq-item active">
+          <div class="faq-header">
+            <h4 class="faq-question">Como funciona a primeira avaliação personalizada?</h4>
+            <div class="faq-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+          </div>
+          <div class="faq-content" style="max-height: 200px;">
+            <p>
+              Na sua primeira visita, realizamos uma consulta humanizada e detalhada para entender a sua rotina, o histórico da sua pele e os resultados almejados. A partir disso, definimos um protocolo sob medida, sem imposições e priorizando sempre a naturalidade.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-header">
+            <h4 class="faq-question">A depilação a laser da clínica dói?</h4>
+            <div class="faq-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+          </div>
+          <div class="faq-content">
+            <p>
+              Utilizamos equipamentos de última geração equipados com sistemas de resfriamento contínuo na ponteira, tornando a sessão praticamente indolor e muito mais rápida e segura em comparação aos lasers tradicionais.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-header">
+            <h4 class="faq-question">As harmonizações ficam com aspecto natural?</h4>
+            <div class="faq-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+          </div>
+          <div class="faq-content">
+            <p>
+              Sim! Nossa filosofia repudia exageros. Trabalhamos exclusivamente com técnicas de refinamento facial, respeitando sua anatomia original e apenas realçando pontos de beleza e contornos sutis.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-header">
+            <h4 class="faq-question">Preciso de repouso após a limpeza de pele ou rejuvenescimento?</h4>
+            <div class="faq-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+          </div>
+          <div class="faq-content">
+            <p>
+              Nossos protocolos utilizam ativos dermocosméticos suaves e tecnologias não-invasivas, permitindo que você retorne à sua rotina no mesmo dia. Recomendamos apenas evitar exposição solar direta imediata e o uso regular do filtro solar orientado.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-header">
+            <h4 class="faq-question">Como agendar um horário nos Jardins?</h4>
+            <div class="faq-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+          </div>
+          <div class="faq-content">
+            <p>
+              O agendamento é simples e rápido diretamente pelo nosso WhatsApp (11 94859-4859). Nossa equipe concierge está pronta para tirar dúvidas e encontrar o melhor horário para você.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================================
+       FOOTER
+       ============================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="logo-brand" style="margin-bottom: 18px;">
+            <div class="logo-symbol" style="background: rgba(255, 255, 255, 0.1); border-color: rgba(255, 255, 255, 0.2); color: #FFFFFF;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2a10 10 0 0 1 10 10c0 5.523-4.477 10-10 10S2 17.523 2 12a10 10 0 0 1 10-10z"/>
+                <path d="M12 6c-2.5 3-4.5 5.5-4.5 8 0 2.485 2.015 4 4.5 4s4.5-1.515 4.5-4c0-2.5-2-5-4.5-8z"/>
+              </svg>
+            </div>
+            <div class="logo-text">
+              <span class="logo-name" style="color: #FFFFFF;">CLÍNICA DEMO</span>
+              <span class="logo-location" style="color: var(--lilac-300);">JARDINS • SÃO PAULO</span>
+            </div>
+          </div>
+          <p class="footer-about-text">
+            Mais do que estética, cuidamos de você. Uma clínica dedicada ao cuidado com a pele, bem-estar e autoestima com ambiente acolhedor e atendimento humanizado.
+          </p>
+          <a href="https://wa.me/5511948594859?text=Ol%C3%A1%2C+gostaria+de+agendar+um+hor%C3%A1rio+na+Cl%C3%ADnica+Demo+Jardins." target="_blank" class="btn btn-primary" style="padding: 12px 24px; font-size: 0.9rem;">
+            WhatsApp: (11) 94859-4859
+          </a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul class="footer-links">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#essencia">A Clínica & Filosofia</a></li>
+            <li><a href="#servicos">Procedimentos</a></li>
+            <li><a href="#experiencia">A Experiência Jardins</a></li>
+            <li><a href="#protocolo-quiz">Descubra seu Protocolo</a></li>
+            <li><a href="#localizacao">Localização & Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Serviços</h4>
+          <ul class="footer-links">
+            <li><a href="#servicos">Limpeza de Pele</a></li>
+            <li><a href="#servicos">Tratamentos Faciais</a></li>
+            <li><a href="#servicos">Depilação a Laser</a></li>
+            <li><a href="#servicos">Tratamentos Corporais</a></li>
+            <li><a href="#servicos">Rejuvenescimento Facial</a></li>
+            <li><a href="#servicos">Procedimentos Especializados</a></li>
+            <li><a href="#servicos">Harmonizações</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Horários & Local</h4>
+          <p style="font-size: 0.88rem; color: #B9AFC9; margin-bottom: 12px; line-height: 1.6;">
+            <strong>Região dos Jardins</strong><br>
+            São Paulo - SP<br>
+            Com manobrista cortesia
+          </p>
+          <p style="font-size: 0.88rem; color: #B9AFC9; line-height: 1.6;">
+            Seg - Sex: 08:00 às 20:00<br>
+            Sábados: 09:00 às 16:00
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Clínica Demo Jardins. Todos os direitos reservados. Estética de Alto Padrão e Bem-Estar.</p>
+        <p>Atenção a cada detalhe • Atendimento humanizado</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =============================================================
+       FLOATING WHATSAPP BUTTON
+       ============================================================= -->
+  <a href="https://wa.me/5511948594859?text=Ol%C3%A1%2C+gostaria+de+agendar+uma+avalia%C3%A7%C3%A3o+personalizada+na+Cl%C3%ADnica+Demo+Jardins." target="_blank" class="floating-whatsapp-btn" aria-label="Fale conosco pelo WhatsApp">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M17.472 14.382c-.301-.15-1.782-.879-2.057-.98-.276-.1-.477-.15-.678.15-.2.301-.779.98-.955 1.18-.175.201-.351.226-.652.075s-1.272-.469-2.424-1.496c-.896-.799-1.501-1.787-1.677-2.088-.176-.301-.019-.464.132-.614.136-.135.301-.351.452-.527.15-.175.201-.301.301-.502.1-.201.05-.376-.025-.526-.075-.15-.678-1.634-.929-2.239-.244-.589-.493-.509-.678-.519l-.578-.01c-.2 0-.527.075-.803.376s-1.054 1.03-1.054 2.511 1.079 2.912 1.23 3.113c.15.2 2.124 3.243 5.145 4.548.719.311 1.28.497 1.718.636.722.23 1.378.197 1.897.12.578-.087 1.782-.728 2.033-1.431.251-.703.251-1.305.176-1.431-.076-.125-.276-.2-.577-.35zM12.04 2C6.51 2 2.02 6.49 2.02 12.02c0 1.96.57 3.86 1.65 5.48L2 22l4.67-1.62c1.57.99 3.39 1.52 5.37 1.52 5.53 0 10.02-4.49 10.02-10.02C22.06 6.49 17.57 2 12.04 2z"/>
+    </svg>
+    <span>Falar no WhatsApp</span>
+  </a>
+
+  <!-- =============================================================
+       BOOKING MODAL DIALOG
+       ============================================================= -->
+  <div class="modal-overlay" id="bookingModal">
+    <div class="modal-window">
+      <button class="modal-close-btn" id="closeModalBtn" aria-label="Fechar modal">&times;</button>
+      
+      <div style="text-align: center; margin-bottom: 24px;">
+        <span class="badge-pill" style="margin-bottom: 10px;"><span class="dot"></span> Concierge Jardins</span>
+        <h3 style="font-family: var(--font-serif); font-size: 2rem; color: var(--text-headline);">Agendar Avaliação</h3>
+        <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 4px;">
+          Preencha abaixo para ser atendida prioritariamente pelo nosso WhatsApp.
+        </p>
+      </div>
+
+      <form id="bookingForm">
+        <div class="form-group">
+          <label class="form-label" for="clientName">Seu Nome Completo</label>
+          <input type="text" id="clientName" class="form-control" placeholder="Como prefere ser chamada?" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="clientPhone">Seu WhatsApp / Telefone</label>
+          <input type="tel" id="clientPhone" class="form-control" placeholder="(11) 99999-9999" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="modalServiceSelect">Procedimento de Interesse</label>
+          <select id="modalServiceSelect" class="form-control">
+            <option value="Limpeza de Pele">Limpeza de Pele</option>
+            <option value="Tratamentos Faciais">Tratamentos Faciais</option>
+            <option value="Depilação a Laser">Depilação a Laser</option>
+            <option value="Tratamentos Corporais">Tratamentos Corporais</option>
+            <option value="Rejuvenescimento Facial">Rejuvenescimento Facial</option>
+            <option value="Procedimentos Especializados">Procedimentos Especializados</option>
+            <option value="Harmonizações">Harmonizações</option>
+            <option value="Avaliação Geral">Avaliação e Diagnóstico Geral</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="clientNotes">Observações ou Preferência de Horário (Opcional)</label>
+          <textarea id="clientNotes" class="form-control" rows="2" placeholder="Ex: Prefiro atendimento no período da manhã..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%; padding: 16px;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.301-.15-1.782-.879-2.057-.98-.276-.1-.477-.15-.678.15-.2.301-.779.98-.955 1.18-.175.201-.351.226-.652.075s-1.272-.469-2.424-1.496c-.896-.799-1.501-1.787-1.677-2.088-.176-.301-.019-.464.132-.614.136-.135.301-.351.452-.527.15-.175.201-.301.301-.502.1-.201.05-.376-.025-.526-.075-.15-.678-1.634-.929-2.239-.244-.589-.493-.509-.678-.519l-.578-.01c-.2 0-.527.075-.803.376s-1.054 1.03-1.054 2.511 1.079 2.912 1.23 3.113c.15.2 2.124 3.243 5.145 4.548.719.311 1.28.497 1.718.636.722.23 1.378.197 1.897.12.578-.087 1.782-.728 2.033-1.431.251-.703.251-1.305.176-1.431-.076-.125-.276-.2-.577-.35zM12.04 2C6.51 2 2.02 6.49 2.02 12.02c0 1.96.57 3.86 1.65 5.48L2 22l4.67-1.62c1.57.99 3.39 1.52 5.37 1.52 5.53 0 10.02-4.49 10.02-10.02C22.06 6.49 17.57 2 12.04 2z"/>
+          </svg>
+          Confirmar e Abrir WhatsApp
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
