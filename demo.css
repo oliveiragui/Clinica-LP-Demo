@@ -1,0 +1,39 @@
+/* Shared demo behavior: each landing page carries its own copy. */
+:root { --demo-focus: #246bce; }
+[hidden] { display: none !important; }
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: 3px solid var(--demo-focus) !important;
+  outline-offset: 4px;
+}
+main, section, article, .container, form { min-width: 0; }
+:where([class*="grid"], [class*="container"], [class*="row"], [class*="card"]) > * { min-width: 0; }
+p, li, label, h1, h2, h3, h4, .btn { overflow-wrap: break-word; }
+.btn { max-width: 100%; white-space: normal; text-align: center; }
+.btn svg { flex-shrink: 0; }
+.demo-notice { padding: 12px 24px; font: 500 12px/1.6 system-ui, sans-serif; text-align: center; color: inherit; border-top: 1px solid currentColor; }
+.demo-notice a { text-decoration: underline; }
+.demo-dialog { width: min(580px, calc(100% - 32px)); max-height: calc(100dvh - 40px); overflow: auto; padding: 28px; border: 1px solid #d5d8dc; border-radius: 16px; color: #1d2329; background: #fff; margin: auto; }
+.demo-dialog::backdrop { background: rgb(10 15 20 / 55%); }
+.demo-dialog h2 { font: 600 24px/1.3 system-ui, sans-serif; color: #1d2329; margin: 0 0 16px; }
+.demo-dialog p { font: 400 15px/1.7 system-ui, sans-serif; margin: 12px 0; color: #374151; }
+.demo-dialog button { min-height: 44px; padding: 10px 18px; margin-top: 16px; border-radius: 8px; background: #1d2329; color: #fff; cursor: pointer; }
+.demo-message { white-space: pre-wrap; overflow-wrap: anywhere; }
+.demo-feedback { padding: 16px; margin-top: 20px; border: 1px solid currentColor; border-radius: 8px; line-height: 1.6; }
+.demo-feedback a { display: inline-block; margin-top: 10px; text-decoration: underline; }
+.demo-team { padding: clamp(40px, 7vw, 80px) 0; }
+.demo-team h2 { margin-bottom: 16px; }
+.demo-team p { max-width: 70ch; margin-bottom: 16px; }
+.demo-team dl { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 24px; }
+.demo-team dt { font-weight: 700; margin-bottom: 8px; }
+.demo-team dd { margin: 0; line-height: 1.6; }
+@media (max-width: 640px) {
+ .container { padding-left: 16px; padding-right: 16px; }
+ .btn { min-height: 44px; }
+ :where(.hero-cta-group, .hero__cta-group) { flex-wrap: wrap; }
+ :where(.hero-cta-group, .hero__cta-group) .btn { width: 100%; }
+ :where(.modal-window, .modal-dialog-box) { max-width: 100%; }
+}
+
+.no-js .sol-panel{display:block;margin-top:32px}.no-js .services-filter-tabs,.no-js .solutions-tabs,.no-js .triagem-tabs,.no-js .goal-tabs-container,.no-js form,.no-js .calc-card{display:none}.no-js .faq-content,.no-js .faq-answer,.no-js .faq-answer-pane{max-height:none;overflow:visible;padding:16px}.no-js .hero-title,.no-js .hero-content,.no-js .reveal-on-scroll{opacity:1;transform:none;animation:none}.no-js .mobile-toggle,.no-js .mobile-menu-toggle,.no-js .mobile-menu-btn{display:none}.no-js .main-nav,.no-js .nav-desktop,.no-js .nav-links{display:block}.no-js header nav{width:100%;order:3}.no-js header .container{flex-wrap:wrap}.no-js .nav-list,.no-js .nav-links{display:flex;flex-wrap:wrap;gap:12px}
+
+.no-js .faq-panel[hidden],.no-js .faq-answer[hidden]{display:block!important}

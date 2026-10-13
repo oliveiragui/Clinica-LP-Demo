@@ -1,0 +1,3 @@
+# Demonstracao: remover o bloqueio somente apos configurar um negocio real.
+User-agent: *
+Disallow: /
