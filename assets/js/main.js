@@ -203,7 +203,7 @@ function renderQuizRecommendation(selections) {
       </div>
 
       <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
-        <a href="https://wa.me/5511948594859?text=${encodedMsg}" target="_blank" class="btn btn-primary">
+        <a href="https://wa.me/5511971979342?text=${encodedMsg}" target="_blank" class="btn btn-primary">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.301-.15-1.782-.879-2.057-.98-.276-.1-.477-.15-.678.15-.2.301-.779.98-.955 1.18-.175.201-.351.226-.652.075s-1.272-.469-2.424-1.496c-.896-.799-1.501-1.787-1.677-2.088-.176-.301-.019-.464.132-.614.136-.135.301-.351.452-.527.15-.175.201-.301.301-.502.1-.201.05-.376-.025-.526-.075-.15-.678-1.634-.929-2.239-.244-.589-.493-.509-.678-.519l-.578-.01c-.2 0-.527.075-.803.376s-1.054 1.03-1.054 2.511 1.079 2.912 1.23 3.113c.15.2 2.124 3.243 5.145 4.548.719.311 1.28.497 1.718.636.722.23 1.378.197 1.897.12.578-.087 1.782-.728 2.033-1.431.251-.703.251-1.305.176-1.431-.076-.125-.276-.2-.577-.35zM12.04 2C6.51 2 2.02 6.49 2.02 12.02c0 1.96.57 3.86 1.65 5.48L2 22l4.67-1.62c1.57.99 3.39 1.52 5.37 1.52 5.53 0 10.02-4.49 10.02-10.02C22.06 6.49 17.57 2 12.04 2z"/></svg>
           Agendar Protocolo via WhatsApp
         </a>
@@ -307,7 +307,7 @@ function initBookingModal() {
         `• Procedimento de Interesse: ${service}` +
         (notes ? `\n• Mensagem: ${notes}` : '');
 
-      const whatsappUrl = `https://wa.me/5511948594859?text=${encodeURIComponent(message)}`;
+      const whatsappUrl = `https://wa.me/5511971979342?text=${encodeURIComponent(message)}`;
       window.open(whatsappUrl, '_blank');
       modal.classList.remove('open');
       bookingForm.reset();

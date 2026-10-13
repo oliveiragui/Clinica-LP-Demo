@@ -868,24 +868,52 @@ button {
 
 .service-footer {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 12px;
   padding-top: 18px;
   border-top: 1px solid var(--pearl-200);
+}
+
+.service-meta-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-weight: 500;
 }
 
 .btn-service-action {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 12px 18px;
+  border-radius: var(--radius-full);
   font-size: 0.88rem;
   font-weight: 600;
-  color: var(--lilac-700);
-  transition: var(--transition-fast);
+  color: #FFFFFF;
+  background: linear-gradient(135deg, var(--lilac-600) 0%, var(--lilac-500) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 14px rgba(124, 83, 200, 0.2);
+  transition: var(--transition-smooth);
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .btn-service-action:hover {
-  color: var(--lilac-900);
+  background: linear-gradient(135deg, var(--lilac-700) 0%, var(--lilac-600) 100%);
+  color: #FFFFFF;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(124, 83, 200, 0.35);
+}
+
+.btn-service-action svg {
+  transition: transform 0.25s ease;
+}
+
+.btn-service-action:hover svg {
   transform: translateX(4px);
 }
 
